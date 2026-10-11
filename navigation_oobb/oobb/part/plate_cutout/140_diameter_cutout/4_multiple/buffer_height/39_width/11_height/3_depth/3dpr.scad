@@ -1,0 +1,1210 @@
+$fn = 50;
+
+difference() {
+	union() {
+		hull() {
+			translate(v = [-287.0, 77.0, 0]) {
+				cylinder(h = 3, r = 5);
+			}
+			translate(v = [287.0, 77.0, 0]) {
+				cylinder(h = 3, r = 5);
+			}
+			translate(v = [-287.0, -77.0, 0]) {
+				cylinder(h = 3, r = 5);
+			}
+			translate(v = [287.0, -77.0, 0]) {
+				cylinder(h = 3, r = 5);
+			}
+		}
+	}
+	union() {
+		translate(v = [-285.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-285.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-285.0, -45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-285.0, 45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-285.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-285.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-270.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-270.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-270.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-270.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-255.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-255.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-240.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-240.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-225.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-225.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-210.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-210.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-195.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-195.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-180.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-180.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-165.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-165.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-165.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-165.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-150.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-150.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-150.0, -45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-150.0, 45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-150.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-150.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-135.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-135.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-135.0, -45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-135.0, 45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-135.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-135.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-120.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-120.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-120.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-120.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-105.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-105.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-90.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-90.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-75.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-75.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-60.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-60.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-45.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-45.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-30.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-30.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-15.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-15.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-15.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-15.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [0.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [0.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [0.0, -45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [0.0, -30.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [0.0, 30.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [0.0, 45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [0.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [0.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [15.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [15.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [15.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [15.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [30.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [30.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [45.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [45.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [60.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [60.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [75.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [75.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [90.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [90.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [105.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [105.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [120.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [120.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [120.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [120.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [135.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [135.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [135.0, -45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [135.0, 45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [135.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [135.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [150.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [150.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [150.0, -45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [150.0, 45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [150.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [150.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [165.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [165.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [165.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [165.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [180.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [180.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [195.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [195.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [210.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [210.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [225.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [225.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [240.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [240.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [255.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [255.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [270.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [270.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [270.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [270.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [285.0, -75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [285.0, -60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [285.0, -45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [285.0, 45.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [285.0, 60.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [285.0, 75.0, 0]) {
+			cylinder(h = 3, r = 3.25);
+		}
+		translate(v = [-285.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-285.0, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-285.0, -37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-285.0, 37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-285.0, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-285.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, -45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, 45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-277.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-270.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-270.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-262.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-262.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-262.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-262.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-262.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-262.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-255.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-255.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-247.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-247.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-232.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-232.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-217.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-217.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-202.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-202.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-187.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-187.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-180.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-180.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-172.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-172.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-172.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-172.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-172.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-172.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-165.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-165.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, -45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, 45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-157.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-150.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-150.0, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-150.0, -37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-150.0, 37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-150.0, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-150.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, -45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, -37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, -30.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, 30.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, 37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, 45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-142.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-135.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-135.0, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-135.0, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-135.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-127.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-127.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-127.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-127.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-127.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-127.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-127.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-127.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-120.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-120.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-112.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-112.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-112.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-112.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-97.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-97.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-82.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-82.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-67.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-67.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-52.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-52.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-37.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-37.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-37.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-37.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-30.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-30.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-22.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-22.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-22.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-22.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-22.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-22.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-15.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-15.0, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-15.0, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-15.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, -45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, -37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, 37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, 45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-7.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [0.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [0.0, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [0.0, -37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [0.0, -22.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [0.0, 22.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [0.0, 37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [0.0, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [0.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, -45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, -37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, 37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, 45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [7.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [15.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [15.0, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [15.0, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [15.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [22.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [22.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [22.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [22.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [22.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [22.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [30.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [30.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [37.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [37.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [37.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [37.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [52.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [52.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [67.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [67.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [82.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [82.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [97.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [97.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [112.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [112.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [112.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [112.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [120.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [120.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [127.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [127.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [127.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [127.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [127.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [127.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [127.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [127.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [135.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [135.0, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [135.0, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [135.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, -45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, -37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, -30.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, 30.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, 37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, 45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [142.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [150.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [150.0, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [150.0, -37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [150.0, 37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [150.0, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [150.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, -45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, 45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [157.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [165.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [165.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [172.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [172.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [172.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [172.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [172.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [172.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [180.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [180.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [187.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [187.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [202.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [202.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [217.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [217.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [232.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [232.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [247.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [247.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [255.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [255.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [262.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [262.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [262.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [262.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [262.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [262.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [270.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [270.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, -75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, -60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, -45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, 45.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, 60.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [277.5, 75.0, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [285.0, -67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [285.0, -52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [285.0, -37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [285.0, 37.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [285.0, 52.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [285.0, 67.5, 0]) {
+			cylinder(h = 3, r = 1.8);
+		}
+		translate(v = [-217.5, 0, 0.0]) {
+			cylinder(h = 3, r = 70.0);
+		}
+		translate(v = [-72.5, 0, 0.0]) {
+			cylinder(h = 3, r = 70.0);
+		}
+		translate(v = [72.5, 0, 0.0]) {
+			cylinder(h = 3, r = 70.0);
+		}
+		translate(v = [217.5, 0, 0.0]) {
+			cylinder(h = 3, r = 70.0);
+		}
+	}
+}

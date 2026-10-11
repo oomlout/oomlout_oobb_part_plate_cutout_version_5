@@ -1,0 +1,43 @@
+buffer: both
+clearance_height: 29
+clearance_width: 29
+depth: 9
+diameter_cutout: 100
+extra: 100_diameter_cutout_3_multiple_both_buffer
+height: 9
+multiple: 3
+oobb_details:
+  buffer: both
+  clearance_height: 29
+  clearance_width: 29
+  depth: 9
+  diameter_cutout: 100
+  extra: 100_diameter_cutout_3_multiple_both_buffer
+  height: 9
+  multiple: 3
+  oobb_name: plate_cutout
+  radius_cutout: 50.0
+  spacing_buffer: 3
+  spacing_multiples: 5
+  thickness: 9
+  width: 23
+oobb_name: plate_cutout
+radius_cutout: 50.0
+spacing_buffer: 3
+spacing_multiples: 5
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: plate_cutout
+taxonomy_4: 100_diameter_cutout
+taxonomy_5: 3_multiple
+taxonomy_6: buffer_both
+taxonomy_7: 23_width
+taxonomy_8: 9_height
+taxonomy_9: 9_depth
+width: 23

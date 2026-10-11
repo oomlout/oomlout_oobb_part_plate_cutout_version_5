@@ -1,0 +1,325 @@
+bip_39_2_word_array:
+- book
+- share
+bip_39_2_word_no_space: bookshare
+bip_39_2_word_space: book share
+bip_39_2_word_underscore: book_share
+bip_39_3_word_array:
+- book
+- share
+- romance
+bip_39_3_word_no_space: bookshareromance
+bip_39_3_word_space: book share romance
+bip_39_3_word_underscore: book_share_romance
+bip_39_full_array:
+- book
+- share
+- romance
+- parade
+- upset
+- one
+- turkey
+- teach
+- orient
+- mention
+- dash
+- discover
+bip_39_full_no_space: bookshareromanceparadeupsetoneturkeyteachorientmentiondashdiscover
+bip_39_full_space: book share romance parade upset one turkey teach orient mention
+  dash discover
+bip_39_full_underscore: book_share_romance_parade_upset_one_turkey_teach_orient_mention_dash_discover
+buffer: width
+clearance_height: 5
+clearance_width: 17
+depth: 3
+diameter_cutout: 4
+directory: parts/oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+extra: 4_diameter_cutout_3_multiple_width_buffer
+height: 1
+id: oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+id_no_class: oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+id_no_size: oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+id_no_type: oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+id_oobb: oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+kwargs:
+  buffer: width
+  clearance_height: 5
+  clearance_width: 17
+  depth: 3
+  diameter_cutout: 4
+  extra: 4_diameter_cutout_3_multiple_width_buffer
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  multiple: 3
+  navigation: true
+  oobb_name: plate_cutout
+  oomp_description_extra: 4_diameter_cutout_3_multiple_width_buffer_extra_3_depth
+  oomp_description_main: plate_cutout_3_width_1_height_3_mm_depth
+  oomp_mode: project
+  oomp_run: true
+  overwrite: true
+  radius_cutout: 2.0
+  spacing_buffer: 3
+  spacing_multiples: 5
+  thickness: 3
+  typ: all
+  type: default_plate_cutout
+  width: 3
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+md5: 1998a6ee500ef3357aaef49c9160de9f
+md5_10: 1998a6ee50
+md5_10_upper: 1998A6EE50
+md5_5: 1998a
+md5_5_upper: 1998A
+md5_6: 1998a6
+md5_6_alpha: zycm
+md5_6_alpha_upper: ZYCM
+md5_6_upper: 1998A6
+multiple: 3
+name: Oobb Part Plate Cutout 4 Diameter Cutout 3 Multiple Buffer Width 3 Width 1 Height
+  3 Depth
+name_no_class: Oobb Part Plate Cutout 4 Diameter Cutout 3 Multiple Buffer Width 3
+  Width 1 Height 3 Depth
+name_no_size: Oobb Part Plate Cutout 4 Diameter Cutout 3 Multiple Buffer Width 3 Width
+  1 Height 3 Depth
+name_no_type: Oobb Part Plate Cutout 4 Diameter Cutout 3 Multiple Buffer Width 3 Width
+  1 Height 3 Depth
+name_proper: Oobb Part Plate Cutout 4 Diameter Cutout 3 Multiple Buffer Width 3 Width
+  1 Height 3 Depth
+name_space: oobb part plate cutout 4 diameter cutout 3 multiple buffer width 3 width
+  1 height 3 depth
+name_upper: OOBB PART PLATE CUTOUT 4 DIAMETER CUTOUT 3 MULTIPLE BUFFER WIDTH 3 WIDTH
+  1 HEIGHT 3 DEPTH
+oobb_details:
+  buffer: width
+  clearance_height: 5
+  clearance_width: 17
+  depth: 3
+  diameter_cutout: 4
+  extra: 4_diameter_cutout_3_multiple_width_buffer
+  height: 1
+  multiple: 3
+  oobb_name: plate_cutout
+  radius_cutout: 2.0
+  spacing_buffer: 3
+  spacing_multiples: 5
+  thickness: 3
+  width: 3
+oobb_name: plate_cutout
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      buffer: width
+      clearance_height: 5
+      clearance_width: 17
+      depth: 3
+      diameter_cutout: 4
+      directory: parts\oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+      extra: 4_diameter_cutout_3_multiple_width_buffer
+      height: 1
+      multiple: 3
+      name: oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+      name_proper: Oobb Part Plate Cutout 4 Diameter Cutout 3 Multiple Buffer Width
+        3 Width 1 Height 3 Depth
+      name_space: oobb part plate cutout 4 diameter cutout 3 multiple buffer width
+        3 width 1 height 3 depth
+      name_upper: OOBB PART PLATE CUTOUT 4 DIAMETER CUTOUT 3 MULTIPLE BUFFER WIDTH
+        3 WIDTH 1 HEIGHT 3 DEPTH
+      oobb_details:
+        buffer: width
+        clearance_height: 5
+        clearance_width: 17
+        depth: 3
+        diameter_cutout: 4
+        extra: 4_diameter_cutout_3_multiple_width_buffer
+        height: 1
+        multiple: 3
+        oobb_name: plate_cutout
+        radius_cutout: 2.0
+        spacing_buffer: 3
+        spacing_multiples: 5
+        thickness: 3
+        width: 3
+      oobb_name: plate_cutout
+      radius_cutout: 2.0
+      spacing_buffer: 3
+      spacing_multiples: 5
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: part
+      taxonomy_3: plate_cutout
+      taxonomy_4: 4_diameter_cutout
+      taxonomy_5: 3_multiple
+      taxonomy_6: buffer_width
+      taxonomy_7: 3_width
+      taxonomy_8: 1_height
+      taxonomy_9: 3_depth
+      url_chat: ''
+      width: 3
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_part_plate_cutout_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_part_plate_cutout_4_diameter_cutout_3_multiple_buffer_width_3_width_1_height_3_depth
+project_name: C:\gh\oomlout_oobb_part_plate_cutout_version_5
+radius_cutout: 2.0
+spacing_buffer: 3
+spacing_multiples: 5
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: plate_cutout
+taxonomy_3_capital: Plate Cutout
+taxonomy_3_first_letter: p
+taxonomy_3_first_letter_upper: P
+taxonomy_3_length_1: p
+taxonomy_3_length_2: pl
+taxonomy_3_length_3: pla
+taxonomy_3_length_4: plat
+taxonomy_3_length_5: plate
+taxonomy_3_upper: PLATE_CUTOUT
+taxonomy_3_upper_length_1: P
+taxonomy_3_upper_length_2: PL
+taxonomy_3_upper_length_3: PLA
+taxonomy_3_upper_length_4: PLAT
+taxonomy_3_upper_length_5: PLATE
+taxonomy_4: 4_diameter_cutout
+taxonomy_4_capital: 4 Diameter Cutout
+taxonomy_4_first_letter: '4'
+taxonomy_4_first_letter_upper: '4'
+taxonomy_4_length_1: '4'
+taxonomy_4_length_2: '4_'
+taxonomy_4_length_3: 4_d
+taxonomy_4_length_4: 4_di
+taxonomy_4_length_5: 4_dia
+taxonomy_4_upper: 4_DIAMETER_CUTOUT
+taxonomy_4_upper_length_1: '4'
+taxonomy_4_upper_length_2: '4_'
+taxonomy_4_upper_length_3: 4_D
+taxonomy_4_upper_length_4: 4_DI
+taxonomy_4_upper_length_5: 4_DIA
+taxonomy_5: 3_multiple
+taxonomy_5_capital: 3 Multiple
+taxonomy_5_first_letter: '3'
+taxonomy_5_first_letter_upper: '3'
+taxonomy_5_length_1: '3'
+taxonomy_5_length_2: '3_'
+taxonomy_5_length_3: 3_m
+taxonomy_5_length_4: 3_mu
+taxonomy_5_length_5: 3_mul
+taxonomy_5_upper: 3_MULTIPLE
+taxonomy_5_upper_length_1: '3'
+taxonomy_5_upper_length_2: '3_'
+taxonomy_5_upper_length_3: 3_M
+taxonomy_5_upper_length_4: 3_MU
+taxonomy_5_upper_length_5: 3_MUL
+taxonomy_6: buffer_width
+taxonomy_6_capital: Buffer Width
+taxonomy_6_first_letter: b
+taxonomy_6_first_letter_upper: B
+taxonomy_6_length_1: b
+taxonomy_6_length_2: bu
+taxonomy_6_length_3: buf
+taxonomy_6_length_4: buff
+taxonomy_6_length_5: buffe
+taxonomy_6_upper: BUFFER_WIDTH
+taxonomy_6_upper_length_1: B
+taxonomy_6_upper_length_2: BU
+taxonomy_6_upper_length_3: BUF
+taxonomy_6_upper_length_4: BUFF
+taxonomy_6_upper_length_5: BUFFE
+taxonomy_7: 3_width
+taxonomy_7_capital: 3 Width
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '3_'
+taxonomy_7_length_3: 3_w
+taxonomy_7_length_4: 3_wi
+taxonomy_7_length_5: 3_wid
+taxonomy_7_upper: 3_WIDTH
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '3_'
+taxonomy_7_upper_length_3: 3_W
+taxonomy_7_upper_length_4: 3_WI
+taxonomy_7_upper_length_5: 3_WID
+taxonomy_8: 1_height
+taxonomy_8_capital: 1 Height
+taxonomy_8_first_letter: '1'
+taxonomy_8_first_letter_upper: '1'
+taxonomy_8_length_1: '1'
+taxonomy_8_length_2: '1_'
+taxonomy_8_length_3: 1_h
+taxonomy_8_length_4: 1_he
+taxonomy_8_length_5: 1_hei
+taxonomy_8_upper: 1_HEIGHT
+taxonomy_8_upper_length_1: '1'
+taxonomy_8_upper_length_2: '1_'
+taxonomy_8_upper_length_3: 1_H
+taxonomy_8_upper_length_4: 1_HE
+taxonomy_8_upper_length_5: 1_HEI
+taxonomy_9: 3_depth
+taxonomy_9_capital: 3 Depth
+taxonomy_9_first_letter: '3'
+taxonomy_9_first_letter_upper: '3'
+taxonomy_9_length_1: '3'
+taxonomy_9_length_2: '3_'
+taxonomy_9_length_3: 3_d
+taxonomy_9_length_4: 3_de
+taxonomy_9_length_5: 3_dep
+taxonomy_9_upper: 3_DEPTH
+taxonomy_9_upper_length_1: '3'
+taxonomy_9_upper_length_2: '3_'
+taxonomy_9_upper_length_3: 3_D
+taxonomy_9_upper_length_4: 3_DE
+taxonomy_9_upper_length_5: 3_DEP
+url_chat: ''
+width: 3

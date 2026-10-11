@@ -1,0 +1,58 @@
+$fn = 50;
+
+difference() {
+	union() {
+		hull() {
+			translate(v = [-69.5, 17.0, 0]) {
+				cylinder(h = 6, r = 5);
+			}
+			translate(v = [69.5, 17.0, 0]) {
+				cylinder(h = 6, r = 5);
+			}
+			translate(v = [-69.5, -17.0, 0]) {
+				cylinder(h = 6, r = 5);
+			}
+			translate(v = [69.5, -17.0, 0]) {
+				cylinder(h = 6, r = 5);
+			}
+		}
+	}
+	union() {
+		translate(v = [-67.5, -15.0, -100.0]) {
+			cylinder(h = 200, r = 3.0);
+		}
+		translate(v = [-67.5, 15.0, -100.0]) {
+			cylinder(h = 200, r = 3.0);
+		}
+		translate(v = [67.5, -15.0, -100.0]) {
+			cylinder(h = 200, r = 3.0);
+		}
+		translate(v = [67.5, 15.0, -100.0]) {
+			cylinder(h = 200, r = 3.0);
+		}
+		translate(v = [-67.5, -15.0, -100.0]) {
+			cylinder(h = 200, r = 1.5);
+		}
+		translate(v = [-67.5, 15.0, -100.0]) {
+			cylinder(h = 200, r = 1.5);
+		}
+		translate(v = [67.5, -15.0, -100.0]) {
+			cylinder(h = 200, r = 1.5);
+		}
+		translate(v = [67.5, 15.0, -100.0]) {
+			cylinder(h = 200, r = 1.5);
+		}
+		translate(v = [-52.5, 0, 0.0]) {
+			cylinder(h = 6, r = 15.0);
+		}
+		translate(v = [-17.5, 0, 0.0]) {
+			cylinder(h = 6, r = 15.0);
+		}
+		translate(v = [17.5, 0, 0.0]) {
+			cylinder(h = 6, r = 15.0);
+		}
+		translate(v = [52.5, 0, 0.0]) {
+			cylinder(h = 6, r = 15.0);
+		}
+	}
+}
