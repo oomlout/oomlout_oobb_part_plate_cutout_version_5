@@ -58,14 +58,14 @@ kwargs:
   oomp_description_extra: 38_diameter_cutout_4_multiple_default_buffer_extra_3_depth
   oomp_description_main: plate_cutout_12_width_3_height_3_mm_depth
   oomp_mode: project
-  oomp_run: false
+  oomp_run: true
   overwrite: true
   radius_cutout: 19.0
   spacing_buffer: 3
   spacing_multiples: 5
   thickness: 3
   typ: all
-  type: C:\gh\oomlout_oobb_part_plate_cutout_version_5_plate_cutout
+  type: default_plate_cutout
   width: 12
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_38_diameter_cutout_4_multiple_buffer_default_12_width_3_height_3_depth
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_38_diameter_cutout_4_multiple_buffer_default_12_width_3_height_3_depth
@@ -767,10 +767,8 @@ thing:
     multiple: 4
     navigation: true
     oobb_name: plate_cutout
-    oomp_description_extra: 38_diameter_cutout_4_multiple_default_buffer_extra_3_depth
-    oomp_description_main: plate_cutout_12_width_3_height_3_mm_depth
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     pos:
     - 0
@@ -802,10 +800,8 @@ thing:
     multiple: 4
     navigation: true
     oobb_name: plate_cutout
-    oomp_description_extra: 38_diameter_cutout_4_multiple_default_buffer_extra_3_depth
-    oomp_description_main: plate_cutout_12_width_3_height_3_mm_depth
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     pos:
     - 0
@@ -834,10 +830,8 @@ thing:
     multiple: 4
     navigation: true
     oobb_name: plate_cutout
-    oomp_description_extra: 38_diameter_cutout_4_multiple_default_buffer_extra_3_depth
-    oomp_description_main: plate_cutout_12_width_3_height_3_mm_depth
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     pos:
     - -64.5
@@ -867,10 +861,8 @@ thing:
     multiple: 4
     navigation: true
     oobb_name: plate_cutout
-    oomp_description_extra: 38_diameter_cutout_4_multiple_default_buffer_extra_3_depth
-    oomp_description_main: plate_cutout_12_width_3_height_3_mm_depth
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     pos:
     - -21.5
@@ -900,10 +892,8 @@ thing:
     multiple: 4
     navigation: true
     oobb_name: plate_cutout
-    oomp_description_extra: 38_diameter_cutout_4_multiple_default_buffer_extra_3_depth
-    oomp_description_main: plate_cutout_12_width_3_height_3_mm_depth
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     pos:
     - 21.5
@@ -933,10 +923,8 @@ thing:
     multiple: 4
     navigation: true
     oobb_name: plate_cutout
-    oomp_description_extra: 38_diameter_cutout_4_multiple_default_buffer_extra_3_depth
-    oomp_description_main: plate_cutout_12_width_3_height_3_mm_depth
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     pos:
     - 64.5
@@ -954,14 +942,14 @@ thing:
     width: 12
     zz: bottom
   components_string:
-  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_38_diameter_cutout_4_multiple_default_buffer_extra_3_depth_oomp_description_extra_plate_cutout_12_width_3_height_3_mm_depth_oomp_description_main_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_bottom_zz_false_holes
-  - oobb_holes_shape_negative_type_m6_radius_name_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_38_diameter_cutout_4_multiple_default_buffer_extra_3_depth_oomp_description_extra_plate_cutout_12_width_3_height_3_mm_depth_oomp_description_main_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_true_both_holes_'corners'_holes
-  - oobb_cylinder_shape_negative_type_3_depth_-64.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_38_diameter_cutout_4_multiple_default_buffer_extra_3_depth_oomp_description_extra_plate_cutout_12_width_3_height_3_mm_depth_oomp_description_main_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_19.0_radius_bottom_zz
-  - oobb_cylinder_shape_negative_type_3_depth_-21.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_38_diameter_cutout_4_multiple_default_buffer_extra_3_depth_oomp_description_extra_plate_cutout_12_width_3_height_3_mm_depth_oomp_description_main_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_19.0_radius_bottom_zz
-  - oobb_cylinder_shape_negative_type_3_depth_21.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_38_diameter_cutout_4_multiple_default_buffer_extra_3_depth_oomp_description_extra_plate_cutout_12_width_3_height_3_mm_depth_oomp_description_main_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_19.0_radius_bottom_zz
-  - oobb_cylinder_shape_negative_type_3_depth_64.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_38_diameter_cutout_4_multiple_default_buffer_extra_3_depth_oomp_description_extra_plate_cutout_12_width_3_height_3_mm_depth_oomp_description_main_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_19.0_radius_bottom_zz
+  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_bottom_zz_false_holes
+  - oobb_holes_shape_negative_type_m6_radius_name_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_true_both_holes_'corners'_holes
+  - oobb_cylinder_shape_negative_type_3_depth_-64.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_19.0_radius_bottom_zz
+  - oobb_cylinder_shape_negative_type_3_depth_-21.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_19.0_radius_bottom_zz
+  - oobb_cylinder_shape_negative_type_3_depth_21.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_19.0_radius_bottom_zz
+  - oobb_cylinder_shape_negative_type_3_depth_64.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_default_buffer_1_clearance_height_7_clearance_width_38_diameter_cutout_38_diameter_cutout_4_multiple_default_buffer_extra_3_height_4_multiple_plate_cutout_oobb_name_19.0_radius_cutout_3_spacing_buffer_5_spacing_multiples_3_thickness_12_width_19.0_radius_bottom_zz
   depth: 3
-  description: C:\gh\oomlout oobb part plate cutout version 5 plate cutout 12x3x3
+  description: default plate cutout 12x3x3
   description_extra: 38_diameter_cutout_4_multiple_default_buffer_extra_3_depth
   description_main: 12_width_3_height_3_mm_depth
   diameter_cutout: 38
@@ -973,7 +961,6 @@ thing:
   id_no_class: oobb_part_plate_cutout_38_diameter_cutout_4_multiple_buffer_default_12_width_3_height_3_depth
   id_no_size: oobb_part_plate_cutout_38_diameter_cutout_4_multiple_buffer_default_12_width_3_height_3_depth
   id_no_type: oobb_part_plate_cutout_38_diameter_cutout_4_multiple_buffer_default_12_width_3_height_3_depth
-  id_oobb: oobb_part_plate_cutout_38_diameter_cutout_4_multiple_buffer_default_12_width_3_height_3_depth
   kwargs:
     buffer: default
     clearance_height: 1
@@ -991,7 +978,7 @@ thing:
     oomp_description_extra: 38_diameter_cutout_4_multiple_default_buffer_extra_3_depth
     oomp_description_main: plate_cutout_12_width_3_height_3_mm_depth
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     radius_cutout: 19.0
     save_type: all
@@ -999,7 +986,7 @@ thing:
     spacing_multiples: 5
     thickness: 3
     typ: all
-    type: C:\gh\oomlout_oobb_part_plate_cutout_version_5_plate_cutout
+    type: default_plate_cutout
     width: 12
   link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_38_diameter_cutout_4_multiple_buffer_default_12_width_3_height_3_depth
   link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_38_diameter_cutout_4_multiple_buffer_default_12_width_3_height_3_depth
@@ -1025,12 +1012,11 @@ thing:
     12 Width 3 Height 3 Depth
   name_proper: Oobb Part Plate Cutout 38 Diameter Cutout 4 Multiple Buffer Default
     12 Width 3 Height 3 Depth
-  name_short: C:\Gh\Oomlout Plate Cutout Version 5
+  name_short: Default Plate Cutout 12x3x3 38xCutout 4
   name_space: oobb part plate cutout 38 diameter cutout 4 multiple buffer default
     12 width 3 height 3 depth
-  name_text: Oobb Part C:\Gh\Oomlout Oobb Part Plate Cutout Version 5 Plate Cutout
-    12 Width 3 Height 3 mm Depth 38 Diameter Cutout 4 Multiple Default Buffer Extra
-    3 Depth
+  name_text: Oobb Part Default Plate Cutout 12 Width 3 Height 3 mm Depth 38 Diameter
+    Cutout 4 Multiple Default Buffer Extra 3 Depth
   name_upper: OOBB PART PLATE CUTOUT 38 DIAMETER CUTOUT 4 MULTIPLE BUFFER DEFAULT
     12 WIDTH 3 HEIGHT 3 DEPTH
   oobb_details:
@@ -1116,10 +1102,9 @@ thing:
     retries_until_complete: 0
   oomp_key: oomp_oobb_part_plate_cutout_38_diameter_cutout_4_multiple_buffer_default_12_width_3_height_3_depth
   part_number: ''
-  project_name: C:\gh\oomlout_oobb_part_plate_cutout_version_5
   radius_cutout: 19.0
   short_name: ''
-  size: C:\gh\oomlout_oobb_part_plate_cutout_version_5_plate_cutout
+  size: default_plate_cutout
   spacing_buffer: 3
   spacing_multiples: 5
   taxonomy_1: oobb

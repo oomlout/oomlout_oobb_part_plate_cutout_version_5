@@ -26,7 +26,7 @@ bip_39_full_array:
 - carbon
 bip_39_full_no_space: miserywingpatientspendslenderfatchoicemanleafelephantgorillacarbon
 bip_39_full_space: misery wing patient spend slender fat choice man leaf elephant
-  gorilla carbon
+    gorilla carbon
 bip_39_full_underscore: misery_wing_patient_spend_slender_fat_choice_man_leaf_elephant_gorilla_carbon
 buffer: width
 clearance_height: 14
@@ -40,33 +40,6 @@ id: oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_
 id_no_class: oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
 id_no_size: oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
 id_no_type: oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
-id_oobb: oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
-kwargs:
-  buffer: width
-  clearance_height: 14
-  clearance_width: 29
-  depth: 6
-  diameter_cutout: 100
-  extra: 100_diameter_cutout_2_multiple_width_buffer
-  filter: ''
-  height: 8
-  modes:
-  - 3dpr
-  multiple: 2
-  navigation: true
-  oobb_name: plate_cutout
-  oomp_description_extra: 100_diameter_cutout_2_multiple_width_buffer_extra_6_depth
-  oomp_description_main: plate_cutout_16_width_8_height_6_mm_depth
-  oomp_mode: project
-  oomp_run: true
-  overwrite: true
-  radius_cutout: 50.0
-  spacing_buffer: 3
-  spacing_multiples: 5
-  thickness: 6
-  typ: all
-  type: default_plate_cutout
-  width: 16
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
 link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
@@ -81,102 +54,101 @@ md5_6_alpha_upper: 5J3W6
 md5_6_upper: 8DBF76
 multiple: 2
 name: Oobb Part Plate Cutout 100 Diameter Cutout 2 Multiple Buffer Width 16 Width
-  8 Height 6 Depth
+    8 Height 6 Depth
 name_no_class: Oobb Part Plate Cutout 100 Diameter Cutout 2 Multiple Buffer Width
-  16 Width 8 Height 6 Depth
+    16 Width 8 Height 6 Depth
 name_no_size: Oobb Part Plate Cutout 100 Diameter Cutout 2 Multiple Buffer Width 16
-  Width 8 Height 6 Depth
+    Width 8 Height 6 Depth
 name_no_type: Oobb Part Plate Cutout 100 Diameter Cutout 2 Multiple Buffer Width 16
-  Width 8 Height 6 Depth
+    Width 8 Height 6 Depth
 name_proper: Oobb Part Plate Cutout 100 Diameter Cutout 2 Multiple Buffer Width 16
-  Width 8 Height 6 Depth
+    Width 8 Height 6 Depth
 name_space: oobb part plate cutout 100 diameter cutout 2 multiple buffer width 16
-  width 8 height 6 depth
+    width 8 height 6 depth
 name_upper: OOBB PART PLATE CUTOUT 100 DIAMETER CUTOUT 2 MULTIPLE BUFFER WIDTH 16
-  WIDTH 8 HEIGHT 6 DEPTH
+    WIDTH 8 HEIGHT 6 DEPTH
 oobb_details:
-  buffer: width
-  clearance_height: 14
-  clearance_width: 29
-  depth: 6
-  diameter_cutout: 100
-  extra: 100_diameter_cutout_2_multiple_width_buffer
-  height: 8
-  multiple: 2
-  oobb_name: plate_cutout
-  radius_cutout: 50.0
-  spacing_buffer: 3
-  spacing_multiples: 5
-  thickness: 6
-  width: 16
+    buffer: width
+    clearance_height: 14
+    clearance_width: 29
+    depth: 6
+    diameter_cutout: 100
+    extra: 100_diameter_cutout_2_multiple_width_buffer
+    height: 8
+    multiple: 2
+    oobb_name: plate_cutout
+    radius_cutout: 50.0
+    spacing_buffer: 3
+    spacing_multiples: 5
+    thickness: 6
+    width: 16
 oobb_name: plate_cutout
 oomlout_ai_roboclick_1:
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      buffer: width
-      clearance_height: 14
-      clearance_width: 29
-      depth: 6
-      diameter_cutout: 100
-      directory: parts\oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
-      extra: 100_diameter_cutout_2_multiple_width_buffer
-      height: 8
-      multiple: 2
-      name: oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
-      name_proper: Oobb Part Plate Cutout 100 Diameter Cutout 2 Multiple Buffer Width
-        16 Width 8 Height 6 Depth
-      name_space: oobb part plate cutout 100 diameter cutout 2 multiple buffer width
-        16 width 8 height 6 depth
-      name_upper: OOBB PART PLATE CUTOUT 100 DIAMETER CUTOUT 2 MULTIPLE BUFFER WIDTH
-        16 WIDTH 8 HEIGHT 6 DEPTH
-      oobb_details:
-        buffer: width
-        clearance_height: 14
-        clearance_width: 29
-        depth: 6
-        diameter_cutout: 100
-        extra: 100_diameter_cutout_2_multiple_width_buffer
-        height: 8
-        multiple: 2
-        oobb_name: plate_cutout
-        radius_cutout: 50.0
-        spacing_buffer: 3
-        spacing_multiples: 5
-        thickness: 6
-        width: 16
-      oobb_name: plate_cutout
-      radius_cutout: 50.0
-      spacing_buffer: 3
-      spacing_multiples: 5
-      taxonomy_1: oobb
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: part
-      taxonomy_3: plate_cutout
-      taxonomy_4: 100_diameter_cutout
-      taxonomy_5: 2_multiple
-      taxonomy_6: buffer_width
-      taxonomy_7: 16_width
-      taxonomy_8: 8_height
-      taxonomy_9: 6_depth
-      url_chat: ''
-      width: 16
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_oomp.svg
-    file_template: C:\gh\oomlout_oobb_part_plate_cutout_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_oomp.pdf
-  retries_until_complete: 0
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            buffer: width
+            clearance_height: 14
+            clearance_width: 29
+            depth: 6
+            diameter_cutout: 100
+            directory: parts\oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
+            extra: 100_diameter_cutout_2_multiple_width_buffer
+            height: 8
+            multiple: 2
+            name: oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
+            name_proper: Oobb Part Plate Cutout 100 Diameter Cutout 2 Multiple Buffer
+                Width 16 Width 8 Height 6 Depth
+            name_space: oobb part plate cutout 100 diameter cutout 2 multiple buffer
+                width 16 width 8 height 6 depth
+            name_upper: OOBB PART PLATE CUTOUT 100 DIAMETER CUTOUT 2 MULTIPLE BUFFER
+                WIDTH 16 WIDTH 8 HEIGHT 6 DEPTH
+            oobb_details:
+                buffer: width
+                clearance_height: 14
+                clearance_width: 29
+                depth: 6
+                diameter_cutout: 100
+                extra: 100_diameter_cutout_2_multiple_width_buffer
+                height: 8
+                multiple: 2
+                oobb_name: plate_cutout
+                radius_cutout: 50.0
+                spacing_buffer: 3
+                spacing_multiples: 5
+                thickness: 6
+                width: 16
+            oobb_name: plate_cutout
+            radius_cutout: 50.0
+            spacing_buffer: 3
+            spacing_multiples: 5
+            taxonomy_1: oobb
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: part
+            taxonomy_3: plate_cutout
+            taxonomy_4: 100_diameter_cutout
+            taxonomy_5: 2_multiple
+            taxonomy_6: buffer_width
+            taxonomy_7: 16_width
+            taxonomy_8: 8_height
+            taxonomy_9: 6_depth
+            url_chat: ''
+            width: 16
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomlout_oobb_part_plate_cutout_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
 oomp_key: oomp_oobb_part_plate_cutout_100_diameter_cutout_2_multiple_buffer_width_16_width_8_height_6_depth
-project_name: C:\gh\oomlout_oobb_part_plate_cutout_version_5
 radius_cutout: 50.0
 spacing_buffer: 3
 spacing_multiples: 5

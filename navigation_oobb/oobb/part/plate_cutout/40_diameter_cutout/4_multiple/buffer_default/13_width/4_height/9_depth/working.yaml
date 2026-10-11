@@ -58,14 +58,14 @@ kwargs:
   oomp_description_extra: 40_diameter_cutout_4_multiple_default_buffer_extra_9_depth
   oomp_description_main: plate_cutout_13_width_4_height_9_mm_depth
   oomp_mode: project
-  oomp_run: false
+  oomp_run: true
   overwrite: true
   radius_cutout: 20.0
   spacing_buffer: 3
   spacing_multiples: 5
   thickness: 9
   typ: all
-  type: C:\gh\oomlout_oobb_part_plate_cutout_version_5_plate_cutout
+  type: default_plate_cutout
   width: 13
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_40_diameter_cutout_4_multiple_buffer_default_13_width_4_height_9_depth
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_40_diameter_cutout_4_multiple_buffer_default_13_width_4_height_9_depth
