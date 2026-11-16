@@ -1,0 +1,11 @@
+{
+  "title": "OOBB plate cutouts",
+  "summary": "3D-printable OOBB mounting plates with one to five circular openings for modular fixtures and prototypes. Choose the opening diameter, plate thickness and extra space around the cutouts; each part folder contains the printable mesh and editable OpenSCAD source.",
+  "dimensions": "Nominal cutout diameters are in millimetres: 4–44 in 1 mm steps, 50–78 in 2 mm steps, and 85–145 in 5 mm steps. Plates are 3, 6 or 9 mm thick. Width and height use the 15 mm OOBB grid; the outer footprint is width × 15 − 1 by height × 15 − 1 mm. Cutouts form a centred row with 5 mm between adjacent nominal openings.",
+  "variants": "The five buffer styles are default, both, width, height and middle. The middle style adds space on both axes and rounds the plate to odd grid dimensions; a single opening sits on the central grid position. In default layouts, the retained grid holes can enlarge or join the nominal cutouts. Buffered variants keep mounting-hole centres at least 5 mm from each cutout edge. See the part metadata for the exact layout.",
+  "parts": "Choose one single-piece plate with the required cutout diameter, number of openings, buffer style and thickness. The 3dpr.stl mesh includes the generator's print allowances. Mounting fasteners and supported components depend on your application and are not included.",
+  "assembly": "Place the plate flat in your slicer and print the selected 3dpr.stl. Check the opening and mounting-hole fit against the actual components before fastening the plate into your assembly.",
+  "modes": ["3dpr", "laser", "true"],
+  "mesh_modes": ["3dpr"],
+  "example_id": "oobb_part_plate_cutout_30_diameter_cutout_1_multiple_buffer_middle_5_width_5_height_3_depth"
+}

@@ -1,23 +1,12 @@
-import copy
-import working_scad
+"""Rebuild the active cutout catalogue, studio renders and documentation."""
+from catalogue import build, cli
+
 
 def main(**kwargs):
-    kwargs["run_oomp_populate"] = True
+    return build(part_filter=kwargs.get("filter", ""), workers=kwargs.get("workers", 2),
+                 legacy_actions=kwargs.get("run_action", False),
+                 populate=kwargs.get("run_oomp_populate", False))
 
-    kwargs["run_oomp"] = True
 
-    kwargs["run_action"] = True
-    #kwargs["run_action"] = False
-
-    kwargs["run_scad"] = True
-
-    kwargs["run_svg"] = True
-
-    kwargs["generate_stl"] = True
-
-    import working
-    working.run(**kwargs)
-
-if __name__ == '__main__':
-    kwargs = {}
-    main(**kwargs)
+if __name__ == "__main__":
+    cli()

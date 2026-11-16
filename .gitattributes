@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve published CAD and provenance bytes.
+/parts/**/*.png -text
+/navigation_oobb/** text eol=lf
+/presentation/scripts/render_catalogue.py -text whitespace=cr-at-eol
+/render_parts.py -text whitespace=cr-at-eol
+/presentation/catalogue.json -text
+*.png -text
