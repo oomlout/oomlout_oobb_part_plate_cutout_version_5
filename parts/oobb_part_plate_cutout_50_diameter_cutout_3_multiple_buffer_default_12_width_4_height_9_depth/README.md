@@ -1,0 +1,347 @@
+<!-- oobb-presentation:start -->
+# Cutout plate · 50 mm opening × 3 · default buffer · 9 mm thick
+
+AI-generated images and instructions. Errors possible.
+
+## Summary
+
+A single-piece OOBB mounting plate with 3 circular openings, each with a nominal diameter of 50 mm. The default buffer style sets the space around the openings; the plate is 9 mm thick. The retained mounting-hole pattern can enlarge or join the nominal cutouts in this default layout.
+
+This is an entirely AI-generated coding project. The generated outputs are included and usually work, but the main purpose of publishing it is to give others a starting point for modifying the project with their own AI tools.
+
+![AI-generated CAD illustration: Cutout plate · 50 mm opening × 3 · default buffer · 9 mm thick](3dpr_presentation.png)
+
+## Details
+
+**Full OOMP ID:** `oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth`
+
+[Part folder](./) · [OOBB navigation](../../navigation_oobb/)
+
+Width and height are OOBB grid units (15 mm pitch). Depth, diameter, radius and spacing are in millimetres. Use 3dpr.stl for printing.
+
+| Field | Value |
+| --- | --- |
+| Nominal cutout diameter (mm) | 50 |
+| Number of openings | 3 |
+| Buffer style | default |
+| Width (OOBB units) | 12 |
+| Height (OOBB units) | 4 |
+| Thickness (mm) | 9 |
+| Gap between openings (mm) | 5 |
+| Nominal outer footprint (mm) | 179 × 59 |
+
+<details>
+<summary>Full part details: all working.yaml fields</summary>
+
+```yaml
+bip_39_2_word_array:
+- satoshi
+- wear
+bip_39_2_word_no_space: satoshiwear
+bip_39_2_word_space: satoshi wear
+bip_39_2_word_underscore: satoshi_wear
+bip_39_3_word_array:
+- satoshi
+- wear
+- example
+bip_39_3_word_no_space: satoshiwearexample
+bip_39_3_word_space: satoshi wear example
+bip_39_3_word_underscore: satoshi_wear_example
+bip_39_full_array:
+- satoshi
+- wear
+- example
+- assault
+- label
+- sugar
+- height
+- grant
+- warrior
+- identify
+- sustain
+- leopard
+bip_39_full_no_space: satoshiwearexampleassaultlabelsugarheightgrantwarrioridentifysustainleopard
+bip_39_full_space: satoshi wear example assault label sugar height grant warrior identify
+  sustain leopard
+bip_39_full_underscore: satoshi_wear_example_assault_label_sugar_height_grant_warrior_identify_sustain_leopard
+buffer: default
+clearance_height: 4
+clearance_width: 14
+depth: 9
+diameter_cutout: 50
+directory: parts/oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+extra: 50_diameter_cutout_3_multiple_default_buffer
+height: 4
+id: oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+id_no_class: oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+id_no_size: oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+id_no_type: oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+md5: bf7f0d3986c7c3b19aab2df74e136bc0
+md5_10: bf7f0d3986
+md5_10_upper: BF7F0D3986
+md5_5: bf7f0
+md5_5_upper: BF7F0
+md5_6: bf7f0d
+md5_6_alpha: 7gzkd
+md5_6_alpha_upper: 7GZKD
+md5_6_upper: BF7F0D
+multiple: 3
+name: Oobb Part Plate Cutout 50 Diameter Cutout 3 Multiple Buffer Default 12 Width
+  4 Height 9 Depth
+name_no_class: Oobb Part Plate Cutout 50 Diameter Cutout 3 Multiple Buffer Default
+  12 Width 4 Height 9 Depth
+name_no_size: Oobb Part Plate Cutout 50 Diameter Cutout 3 Multiple Buffer Default
+  12 Width 4 Height 9 Depth
+name_no_type: Oobb Part Plate Cutout 50 Diameter Cutout 3 Multiple Buffer Default
+  12 Width 4 Height 9 Depth
+name_proper: Oobb Part Plate Cutout 50 Diameter Cutout 3 Multiple Buffer Default 12
+  Width 4 Height 9 Depth
+name_space: oobb part plate cutout 50 diameter cutout 3 multiple buffer default 12
+  width 4 height 9 depth
+name_upper: OOBB PART PLATE CUTOUT 50 DIAMETER CUTOUT 3 MULTIPLE BUFFER DEFAULT 12
+  WIDTH 4 HEIGHT 9 DEPTH
+oobb_details:
+  buffer: default
+  clearance_height: 4
+  clearance_width: 14
+  depth: 9
+  diameter_cutout: 50
+  extra: 50_diameter_cutout_3_multiple_default_buffer
+  height: 4
+  multiple: 3
+  oobb_name: plate_cutout
+  radius_cutout: 25.0
+  spacing_buffer: 3
+  spacing_multiples: 5
+  thickness: 9
+  width: 12
+oobb_name: plate_cutout
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      buffer: default
+      clearance_height: 4
+      clearance_width: 14
+      depth: 9
+      diameter_cutout: 50
+      directory: parts\oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+      extra: 50_diameter_cutout_3_multiple_default_buffer
+      height: 4
+      multiple: 3
+      name: oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+      name_proper: Oobb Part Plate Cutout 50 Diameter Cutout 3 Multiple Buffer Default
+        12 Width 4 Height 9 Depth
+      name_space: oobb part plate cutout 50 diameter cutout 3 multiple buffer default
+        12 width 4 height 9 depth
+      name_upper: OOBB PART PLATE CUTOUT 50 DIAMETER CUTOUT 3 MULTIPLE BUFFER DEFAULT
+        12 WIDTH 4 HEIGHT 9 DEPTH
+      oobb_details:
+        buffer: default
+        clearance_height: 4
+        clearance_width: 14
+        depth: 9
+        diameter_cutout: 50
+        extra: 50_diameter_cutout_3_multiple_default_buffer
+        height: 4
+        multiple: 3
+        oobb_name: plate_cutout
+        radius_cutout: 25.0
+        spacing_buffer: 3
+        spacing_multiples: 5
+        thickness: 9
+        width: 12
+      oobb_name: plate_cutout
+      radius_cutout: 25.0
+      spacing_buffer: 3
+      spacing_multiples: 5
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: part
+      taxonomy_3: plate_cutout
+      taxonomy_4: 50_diameter_cutout
+      taxonomy_5: 3_multiple
+      taxonomy_6: buffer_default
+      taxonomy_7: 12_width
+      taxonomy_8: 4_height
+      taxonomy_9: 9_depth
+      url_chat: ''
+      width: 12
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_part_plate_cutout_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_part_plate_cutout_50_diameter_cutout_3_multiple_buffer_default_12_width_4_height_9_depth
+radius_cutout: 25.0
+spacing_buffer: 3
+spacing_multiples: 5
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: plate_cutout
+taxonomy_3_capital: Plate Cutout
+taxonomy_3_first_letter: p
+taxonomy_3_first_letter_upper: P
+taxonomy_3_length_1: p
+taxonomy_3_length_2: pl
+taxonomy_3_length_3: pla
+taxonomy_3_length_4: plat
+taxonomy_3_length_5: plate
+taxonomy_3_upper: PLATE_CUTOUT
+taxonomy_3_upper_length_1: P
+taxonomy_3_upper_length_2: PL
+taxonomy_3_upper_length_3: PLA
+taxonomy_3_upper_length_4: PLAT
+taxonomy_3_upper_length_5: PLATE
+taxonomy_4: 50_diameter_cutout
+taxonomy_4_capital: 50 Diameter Cutout
+taxonomy_4_first_letter: '5'
+taxonomy_4_first_letter_upper: '5'
+taxonomy_4_length_1: '5'
+taxonomy_4_length_2: '50'
+taxonomy_4_length_3: '50_'
+taxonomy_4_length_4: 50_d
+taxonomy_4_length_5: 50_di
+taxonomy_4_upper: 50_DIAMETER_CUTOUT
+taxonomy_4_upper_length_1: '5'
+taxonomy_4_upper_length_2: '50'
+taxonomy_4_upper_length_3: '50_'
+taxonomy_4_upper_length_4: 50_D
+taxonomy_4_upper_length_5: 50_DI
+taxonomy_5: 3_multiple
+taxonomy_5_capital: 3 Multiple
+taxonomy_5_first_letter: '3'
+taxonomy_5_first_letter_upper: '3'
+taxonomy_5_length_1: '3'
+taxonomy_5_length_2: '3_'
+taxonomy_5_length_3: 3_m
+taxonomy_5_length_4: 3_mu
+taxonomy_5_length_5: 3_mul
+taxonomy_5_upper: 3_MULTIPLE
+taxonomy_5_upper_length_1: '3'
+taxonomy_5_upper_length_2: '3_'
+taxonomy_5_upper_length_3: 3_M
+taxonomy_5_upper_length_4: 3_MU
+taxonomy_5_upper_length_5: 3_MUL
+taxonomy_6: buffer_default
+taxonomy_6_capital: Buffer Default
+taxonomy_6_first_letter: b
+taxonomy_6_first_letter_upper: B
+taxonomy_6_length_1: b
+taxonomy_6_length_2: bu
+taxonomy_6_length_3: buf
+taxonomy_6_length_4: buff
+taxonomy_6_length_5: buffe
+taxonomy_6_upper: BUFFER_DEFAULT
+taxonomy_6_upper_length_1: B
+taxonomy_6_upper_length_2: BU
+taxonomy_6_upper_length_3: BUF
+taxonomy_6_upper_length_4: BUFF
+taxonomy_6_upper_length_5: BUFFE
+taxonomy_7: 12_width
+taxonomy_7_capital: 12 Width
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '12'
+taxonomy_7_length_3: '12_'
+taxonomy_7_length_4: 12_w
+taxonomy_7_length_5: 12_wi
+taxonomy_7_upper: 12_WIDTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '12'
+taxonomy_7_upper_length_3: '12_'
+taxonomy_7_upper_length_4: 12_W
+taxonomy_7_upper_length_5: 12_WI
+taxonomy_8: 4_height
+taxonomy_8_capital: 4 Height
+taxonomy_8_first_letter: '4'
+taxonomy_8_first_letter_upper: '4'
+taxonomy_8_length_1: '4'
+taxonomy_8_length_2: '4_'
+taxonomy_8_length_3: 4_h
+taxonomy_8_length_4: 4_he
+taxonomy_8_length_5: 4_hei
+taxonomy_8_upper: 4_HEIGHT
+taxonomy_8_upper_length_1: '4'
+taxonomy_8_upper_length_2: '4_'
+taxonomy_8_upper_length_3: 4_H
+taxonomy_8_upper_length_4: 4_HE
+taxonomy_8_upper_length_5: 4_HEI
+taxonomy_9: 9_depth
+taxonomy_9_capital: 9 Depth
+taxonomy_9_first_letter: '9'
+taxonomy_9_first_letter_upper: '9'
+taxonomy_9_length_1: '9'
+taxonomy_9_length_2: '9_'
+taxonomy_9_length_3: 9_d
+taxonomy_9_length_4: 9_de
+taxonomy_9_length_5: 9_dep
+taxonomy_9_upper: 9_DEPTH
+taxonomy_9_upper_length_1: '9'
+taxonomy_9_upper_length_2: '9_'
+taxonomy_9_upper_length_3: 9_D
+taxonomy_9_upper_length_4: 9_DE
+taxonomy_9_upper_length_5: 9_DEP
+url_chat: ''
+width: 12
+```
+
+</details>
+
+## Parts
+
+Choose one single-piece plate with the required cutout diameter, number of openings, buffer style and thickness. The 3dpr.stl mesh includes the generator's print allowances. Mounting fasteners and supported components depend on your application and are not included.
+
+## Assembly
+
+Place the plate flat in your slicer and print the selected 3dpr.stl. Check the opening and mounting-hole fit against the actual components before fastening the plate into your assembly.
+
+[Project guide and existing assembly notes](../../PROJECT_GUIDE.md)
+<!-- oobb-presentation:end -->
