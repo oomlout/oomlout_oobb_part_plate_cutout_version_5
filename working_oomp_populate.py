@@ -6,6 +6,10 @@ from oomp_populate_helper import build_oomp_id, write_extras
 
 def main(**kwargs):
     options = get_options(**kwargs)
+    part_filter = kwargs.get("filter", "")
+    options = [option for option in options if part_filter in build_oomp_id(copy.deepcopy(option))]
+    if not options:
+        raise ValueError(f"No catalogue definitions match {part_filter!r}")
 
     extras = []
     for option in options:

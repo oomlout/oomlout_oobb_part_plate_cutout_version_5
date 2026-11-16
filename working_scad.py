@@ -11,16 +11,16 @@ def make_scad(**kwargs):
     typ = scad_help.get_typ(**kwargs)
     oomp_mode = "project"
     #oomp_mode = "oobb"
-    filt = ""
+    filt = kwargs.get("filter", "")
     build_variables = scad_help.get_build_variables(typ, filter=filt)
     if True:
-        kwargs["filter"] = build_variables["filter"]
-        kwargs["save_type"] = build_variables["save_type"]
-        kwargs["navigation"] = build_variables["navigation"]
-        kwargs["overwrite"] = build_variables["overwrite"]
-        kwargs["modes"] = build_variables["modes"]
+        kwargs.setdefault("filter", build_variables["filter"])
+        kwargs.setdefault("save_type", build_variables["save_type"])
+        kwargs.setdefault("navigation", build_variables["navigation"])
+        kwargs.setdefault("overwrite", build_variables["overwrite"])
+        kwargs.setdefault("modes", build_variables["modes"])
         kwargs["oomp_mode"] = oomp_mode
-        kwargs["oomp_run"] = build_variables["oomp_run"]
+        kwargs.setdefault("oomp_run", build_variables["oomp_run"])
     parts = get_parts(kwargs, oomp_mode)
     
     kwargs["parts"] = parts
@@ -41,6 +41,8 @@ def get_parts(kwargs, oomp_mode):
         return parts
 
     for folder in os.listdir(parts_directory):
+        if kwargs.get("filter", "") not in folder:
+            continue
         folder_path = os.path.join(parts_directory, folder)
         if not os.path.isdir(folder_path):
             continue
@@ -64,6 +66,10 @@ def get_parts(kwargs, oomp_mode):
         part_kwargs = copy.deepcopy(kwargs)
         part_kwargs.update(copy.deepcopy(loaded_part.get("kwargs", {})))
         part_kwargs.update(copy.deepcopy(oobb_details))
+        # Current execution choices win over stale values saved in metadata.
+        for key in ("filter", "save_type", "navigation", "overwrite", "modes", "oomp_run", "generate_stl"):
+            if key in kwargs:
+                part_kwargs[key] = copy.deepcopy(kwargs[key])
         part["kwargs"] = part_kwargs
         part["oobb_name"] = part.get("oobb_name", oobb_details.get("oobb_name", "default"))
 

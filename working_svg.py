@@ -13,13 +13,13 @@ def make_svg(**kwargs):
     typ = svg_help.get_typ(**kwargs)
     oomp_mode = "project"
     #oomp_mode = "oobb"
-    filt = ""
+    filt = kwargs.get("filter", "")
     build_variables = svg_help.get_build_variables(typ, filter=filt)
     if True:
-        kwargs["filter"] = build_variables["filter"]
-        kwargs["save_type"] = build_variables["save_type"]
-        kwargs["navigation"] = build_variables["navigation"]
-        kwargs["overwrite"] = build_variables["overwrite"]
+        kwargs.setdefault("filter", build_variables["filter"])
+        kwargs.setdefault("save_type", build_variables["save_type"])
+        kwargs.setdefault("navigation", build_variables["navigation"])
+        kwargs.setdefault("overwrite", build_variables["overwrite"])
         kwargs["oomp_mode"] = oomp_mode
     parts = get_parts(kwargs, oomp_mode)
 
@@ -42,6 +42,8 @@ def get_parts(kwargs, oomp_mode):
         return parts
 
     for folder in os.listdir(parts_directory):
+        if kwargs.get("filter", "") not in folder:
+            continue
         folder_path = os.path.join(parts_directory, folder)
         if not os.path.isdir(folder_path):
             continue
@@ -90,6 +92,9 @@ def get_parts(kwargs, oomp_mode):
                 {**existing, **yaml_styles}
             ) if not existing else {**existing, **yaml_styles}
 
+        for key in ("filter", "save_type", "navigation", "overwrite"):
+            if key in kwargs:
+                part_kwargs[key] = copy.deepcopy(kwargs[key])
         part["kwargs"] = part_kwargs
         part["oobb_name"] = part.get("oobb_name", svg_details.get("svg_name", "default"))
 

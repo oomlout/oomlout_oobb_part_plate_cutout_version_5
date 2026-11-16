@@ -13,7 +13,7 @@ def main(**kwargs):
     #run_scad = False
     kwargs["run_scad"] = run_scad
 
-    run_action = kwargs.get("run_action", True)
+    run_action = kwargs.get("run_action", False)
     #run_action = False
     kwargs["run_action"] = run_action
 
@@ -38,8 +38,8 @@ def run(**kwargs):
         working_oomp_populate.main(**kwargs_2)
 
     if kwargs.get("run_oomp", False):
-        import working_oomp
-        working_oomp.main(**kwargs_2)
+        from catalogue import sync_sources
+        sync_sources(part_filter=kwargs_2.get("filter", ""))
 
     if kwargs.get("run_scad", False):        
         kwargs2 = copy.deepcopy(kwargs_2)

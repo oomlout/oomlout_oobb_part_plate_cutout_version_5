@@ -1,43 +1,39 @@
-# OOBB plate cutouts, version 5
+<!-- oobb-presentation:start -->
+# OOBB plate cutouts
 
-Migrated from `../oomlout_oobb_part_plate_cutout`. Part definitions live in
-`working_oomp_populate.py`; geometry lives in `working_scad.py`. Definitions use
-the version 5 taxonomy and `oobb_details` pipeline, with explicit multiline
-dictionary assignments and `**kwargs` throughout.
+AI-generated images and instructions. Errors possible.
 
-The catalog retains the original 3, 6, and 9 mm depths, one to five cutouts,
-and diameters 4–44 mm (1 mm steps), 50–78 mm (2 mm steps), and 85–145 mm
-(5 mm steps). It retains the `default`, `both`, `width`, and `height` buffers.
-Spacing remains 5 mm between cutouts and a nominal 3 mm buffer at each end.
+## Summary
 
-The new `buffer_middle` taxonomy style uses `buffer="middle"`. It applies the
-same extra width and height as `both`, then rounds each dimension upward to
-an odd number of 15 mm grid units. A single cutout is centered on the plate's
-middle grid position. Multiple cutouts form a centered, symmetric row; odd
-multiples have a cutout at the center, while even multiples straddle it.
-For example, a 24 mm single cutout uses a 5 × 5 plate in this style.
+3D-printable OOBB mounting plates with one to five circular openings for modular fixtures and prototypes. Choose the opening diameter, plate thickness and extra space around the cutouts; each part folder contains the printable mesh and editable OpenSCAD source.
 
-There are 4,140 original combinations and 1,035 additional middle-buffer
-combinations, for 5,175 definitions. Geometry uses the version 5 `oobb_plate`,
-`oobb_holes`, and `oobb_cylinder` primitives. Unbuffered plates retain the
-original corner and clearance-dependent edge mounting pattern. Buffered
-plates fill available grid positions around the cutouts, including the interior
-corner regions, only where a 10 mm diameter disc fits without overlapping any
-cutout. This requires at least 5 mm from each mounting-hole center to every
-cutout edge. Both M6 and intermediate M3 grid positions use the same check.
+This is an entirely AI-generated coding project. The generated outputs are included and usually work, but the main purpose of publishing it is to give others a starting point for modifying the project with their own AI tools.
 
-Run `python action_make_scad_no_stl.py` to populate the full catalog and generate
-SCAD through the existing project pipeline. Run `python -m unittest
-test_plate_cutout -v` to check legacy sizing, odd dimensions, centered cutouts,
-unique IDs, and YAML-to-SCAD generation in print, laser, and true modes.
+![AI-generated CAD illustration of a cutout plate](parts/oobb_part_plate_cutout_30_diameter_cutout_1_multiple_buffer_middle_5_width_5_height_3_depth/3dpr_presentation.png)
 
-For a smaller catalog, pass `depths`, `cutout_diameters`, `multiples`, and
-`buffers` to `working_oomp_populate.main(**kwargs)`. It writes `parts_source`;
-the existing `working_oomp` stage then creates the `parts` consumed by
-`working_scad`. A smaller selection does not delete previously generated parts.
+Representative example: [Cutout plate · 30 mm opening × 1 · middle buffer · 3 mm thick](parts/oobb_part_plate_cutout_30_diameter_cutout_1_multiple_buffer_middle_5_width_5_height_3_depth/).
 
-Run `python action_make_demo_30_mm.py` for all 75 combinations of 30 mm
-cutouts, multiples 1–5, five buffer styles, and 3/6/9 mm depths. It writes
-printable STLs and SCAD in all three modes into the usual `parts` folders,
-plus a comparison sheet at `demo/30_mm/overview.png` and a file manifest
-at `demo/30_mm/manifest.json`.
+## Details
+
+This catalogue contains **5175 records**. [Browse OOBB navigation](navigation_oobb/oobb/part/plate_cutout/).
+
+Each part has one canonical folder, its full OOMP ID and complete metadata. Navigation links open folders; use GitHub’s file pane to browse the available files.
+
+Nominal cutout diameters are in millimetres: 4–44 in 1 mm steps, 50–78 in 2 mm steps, and 85–145 in 5 mm steps. Plates are 3, 6 or 9 mm thick. Width and height use the 15 mm OOBB grid; the outer footprint is width × 15 − 1 by height × 15 − 1 mm. Cutouts form a centred row with 5 mm between adjacent nominal openings.
+
+The five buffer styles are default, both, width, height and middle. The middle style adds space on both axes and rounds the plate to odd grid dimensions; a single opening sits on the central grid position. In default layouts, the retained grid holes can enlarge or join the nominal cutouts. Buffered variants keep mounting-hole centres at least 5 mm from each cutout edge. See the part metadata for the exact layout.
+
+Run `python catalogue.py render` to refresh studio images and navigation, or `python catalogue.py build --filter <part-ID>` to rebuild one selection. Omit the filter for the full catalogue.
+
+[Build and maintenance guide](CATALOGUE_BUILD.md)
+
+## Parts
+
+Choose one single-piece plate with the required cutout diameter, number of openings, buffer style and thickness. The 3dpr.stl mesh includes the generator's print allowances. Mounting fasteners and supported components depend on your application and are not included.
+
+## Assembly
+
+Place the plate flat in your slicer and print the selected 3dpr.stl. Check the opening and mounting-hole fit against the actual components before fastening the plate into your assembly.
+
+[Project guide and existing assembly notes](PROJECT_GUIDE.md)
+<!-- oobb-presentation:end -->

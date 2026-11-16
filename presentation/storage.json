@@ -1,0 +1,112 @@
+{
+  "baseline_commit": "fe08f530b69f2112492572ea5336eb065876bcb2",
+  "units": "Logical bytes; decimal MB/GB. Published projections use existing Git blob sizes for unchanged files and Git-compatible line endings for changed/new text.",
+  "before": {
+    "other": {
+      "files": 5311,
+      "bytes": 13249046
+    },
+    "navigation_oobb": {
+      "files": 31300,
+      "bytes": 20401417886
+    },
+    "parts": {
+      "files": 31300,
+      "bytes": 20399737736
+    }
+  },
+  "after": {
+    "other": {
+      "files": 5329,
+      "bytes": 18957813,
+      "checkout_bytes": 19196912
+    },
+    "navigation_oobb": {
+      "files": 15943,
+      "bytes": 63226430,
+      "checkout_bytes": 63226430
+    },
+    "parts": {
+      "files": 41650,
+      "bytes": 21725377631,
+      "checkout_bytes": 22346609813
+    }
+  },
+  "canonical_families": {
+    "3dpr.png": {
+      "files": 5175,
+      "bytes": 74322884,
+      "share_of_parts_percent": 0.3421
+    },
+    "3dpr.scad": {
+      "files": 5175,
+      "bytes": 30736134,
+      "share_of_parts_percent": 0.1415
+    },
+    "3dpr.stl": {
+      "files": 5175,
+      "bytes": 19666622866,
+      "share_of_parts_percent": 90.5237
+    },
+    "3dpr_presentation.png": {
+      "files": 5175,
+      "bytes": 1266125612,
+      "share_of_parts_percent": 5.8279
+    },
+    "README.md": {
+      "files": 5175,
+      "bytes": 59514283,
+      "share_of_parts_percent": 0.2739
+    },
+    "demo_top.png": {
+      "files": 25,
+      "bytes": 40943,
+      "share_of_parts_percent": 0.0002
+    },
+    "label_oomp.svg": {
+      "files": 5175,
+      "bytes": 185534849,
+      "share_of_parts_percent": 0.854
+    },
+    "laser.scad": {
+      "files": 75,
+      "bytes": 243225,
+      "share_of_parts_percent": 0.0011
+    },
+    "laser_flat.scad": {
+      "files": 75,
+      "bytes": 597909,
+      "share_of_parts_percent": 0.0028
+    },
+    "thing.yaml": {
+      "files": 5175,
+      "bytes": 390031944,
+      "share_of_parts_percent": 1.7953
+    },
+    "true.scad": {
+      "files": 75,
+      "bytes": 243225,
+      "share_of_parts_percent": 0.0011
+    },
+    "working.yaml": {
+      "files": 5175,
+      "bytes": 51363757,
+      "share_of_parts_percent": 0.2364
+    }
+  },
+  "published_savings_bytes": 19006842794,
+  "published_savings_percent": 46.569,
+  "git": {
+    "files": 31,
+    "bytes": 1040493332
+  },
+  "local_build_cache": {
+    "files": 10794,
+    "bytes": 4693019235
+  },
+  "external_recovery": {
+    "files": 31304,
+    "bytes": 21050387367
+  },
+  "scope": "Local working tree projection; no commit, history reset, push or fresh-clone measurement was performed."
+}

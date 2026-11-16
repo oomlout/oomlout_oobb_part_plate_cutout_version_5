@@ -80,7 +80,7 @@ def make_parts(**kwargs):
         for part in parts:
             oobb_name = part.get("oobb_name", "default")
             extra = part["kwargs"].get("extra", "")
-            if filter in oobb_name or filter in extra:
+            if filter in part.get("id", ""):
                 print(f"making {part['oobb_name']}")
                 make_svg_generic(part)
             else:
@@ -201,53 +201,11 @@ def make_svg_generic(part):
     return thing
 
 
-def generate_navigation(folder="parts", sort=["oobb_name", "width", "height"]):
-    #crawl through all directories in parts/ and load all working.yaml files
-    parts = {}
-    for root, dirs, files in os.walk(folder):
-        if "working.yaml" in files:
-            yaml_file = os.path.join(root, "working.yaml")
-            if root != folder:
-                with open(yaml_file, "r", encoding="utf-8") as file:
-                    part = yaml.safe_load(file)
-                    part["folder"] = root
-                    part_name = root.replace(f"{folder}", "")
-                    part_name = part_name.replace("/", "").replace("\\", "")
-                    parts[part_name] = part
-                    print(f"Loaded {yaml_file}")
-
-    for part_id in parts:
-        if part_id != "":
-            part = parts[part_id]
-
-            if "kwargs" in part:
-                kwarg_copy = copy.deepcopy(part["kwargs"])
-                folder_navigation = "navigation_svg"
-                folder_source = part["folder"]
-                folder_extra = ""
-                for s in sort:
-                    if s == "oobb_name":
-                        ex = part.get("oobb_name", "default")
-                    else:
-                        ex = kwarg_copy.get(s, "default")
-                        if isinstance(ex, list):
-                            ex_string = ""
-                            for e in ex:
-                                ex_string += f"{e}_"
-                            ex = ex_string[:-1]
-                            ex = ex.replace(".", "d")
-                    folder_extra += f"{s}_{ex}/"
-
-                folder_extra = folder_extra.replace(".", "d")
-                folder_destination = f"{folder_navigation}/{folder_extra}"
-                if not os.path.exists(folder_destination):
-                    os.makedirs(folder_destination)
-                if os.name == "nt":
-                    command = f'xcopy "{folder_source}" "{folder_destination}" /E /I /Y'
-                    print(command)
-                    os.system(command)
-                else:
-                    os.system(f"cp -r {folder_source}/. {folder_destination}")
+def generate_navigation(folder="parts", sort=None):
+    """Compatibility entry point for the shared text-only navigation."""
+    from pathlib import Path
+    from catalogue import navigation
+    return navigation(Path(folder).resolve().parent)
 
 
 def get_default_thing(**kwargs):

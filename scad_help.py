@@ -163,7 +163,7 @@ def make_parts(**kwargs):
         for part in parts:
             oobb_name = part.get("oobb_name", "default")            
             extra = part["kwargs"].get("extra", "")
-            if filter in oobb_name or filter in extra:
+            if filter in part.get("id", ""):
                 print(f"making {part['oobb_name']}")
                 make_scad_generic(part)            
                 
@@ -291,68 +291,8 @@ def make_scad_generic(part):
 
     print(f"done {oomp_id}")
 
-def generate_navigation(folder="parts", sort=["width", "height", "thickness"]):
-    #crawl though all directories in scad_output and load all the working.yaml files
-    parts = {}
-    for root, dirs, files in os.walk(folder):
-        if 'working.yaml' in files:
-            yaml_file = os.path.join(root, 'working.yaml')
-            #if working.yaml isn't in the root directory, then do it
-            if root != folder:
-                with open(yaml_file, 'r') as file:
-                    part = yaml.safe_load(file)
-                    # Process the loaded YAML content as needed
-                    part["folder"] = root
-                    part_name = root.replace(f"{folder}","")
-                    
-                    #remove all slashes
-                    part_name = part_name.replace("/","").replace("\\","")
-                    parts[part_name] = part
-
-                    print(f"Loaded {yaml_file}")
-
-    pass
-    
-    for part_id in parts:
-        if part_id != "":
-            part = parts[part_id]
-
-            if "kwargs" in part:
-                kwarg_copy = copy.deepcopy(part["kwargs"])
-                folder_navigation = "navigation_oobb"
-                folder_source = part["folder"]
-                folder_extra = ""
-                for s in sort:
-                    if s == "oobb_name":
-                        ex = part.get("oobb_name", "default")
-                    else:                        
-                        ex = kwarg_copy.get(s, "default")
-                        if ex == "default":
-                            ex = part.get(s, "default")
-                        #if ex is a list
-                        if isinstance(ex, list):
-                            ex_string = ""
-                            for e in ex:
-                                ex_string += f"{e}_"
-                            ex = ex_string[:-1]
-                            ex = ex.replace(".","d")                            
-                    if ex != "default" and ex != "":
-                        if "taxonomy_" in s:
-                            folder_extra += f"{ex}/"
-                        else:
-                            folder_extra += f"{s}_{ex}/"
-
-                #replace "." with d
-                folder_extra = folder_extra.replace(".","d")            
-                folder_destination = f"{folder_navigation}/{folder_extra}"
-                if not os.path.exists(folder_destination):
-                    os.makedirs(folder_destination)
-                if os.name == 'nt':
-                    #copy a full directory auto overwrite
-                    command = f'xcopy "{folder_source}" "{folder_destination}" /E /I /Y'
-                    print(command)
-                    os.system(command)
-                else:
-                    os.system(f"cp {folder_source} {folder_destination}")
-                cleanup_raw_scad_artifacts(folder_destination)
-
+def generate_navigation(folder="parts", sort=None):
+    """Compatibility entry point: canonical links, never copied part assets."""
+    from pathlib import Path
+    from catalogue import navigation
+    return navigation(Path(folder).resolve().parent)
